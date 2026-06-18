@@ -1,0 +1,247 @@
+2026-06-18 09:14:09,153 - __main__ - INFO - Бот создан
+2026-06-18 09:14:09,713 - __main__ - INFO - Вебхук удалён
+2026-06-18 09:14:09,805 - __main__ - INFO - Бот @tracer_AS_bot запущен и готов к работе!
+2026-06-18 09:14:09,806 - __main__ - INFO - ID бота: 7676817853
+2026-06-18 09:14:09,808 - db_handler - INFO - Подключение к БД diary.db установлено
+2026-06-18 09:14:09,809 - db_handler - INFO - Таблицы успешно созданы
+2026-06-18 09:14:09,809 - __main__ - INFO - База данных подключена
+2026-06-18 09:14:09,809 - __main__ - INFO - Бот запущен, начинаем polling...
+2026-06-18 09:17:54,818 - __main__ - INFO - Бот создан
+2026-06-18 09:17:55,388 - __main__ - INFO - Вебхук удалён
+2026-06-18 09:17:55,480 - __main__ - INFO - Бот @tracer_AS_bot запущен и готов к работе!
+2026-06-18 09:17:55,482 - __main__ - INFO - ID бота: 7676817853
+2026-06-18 09:17:55,484 - db_handler - INFO - Подключение к БД diary.db установлено
+2026-06-18 09:17:55,486 - db_handler - INFO - Таблицы успешно созданы
+2026-06-18 09:17:55,487 - __main__ - INFO - База данных подключена
+2026-06-18 09:17:55,489 - __main__ - INFO - Бот запущен, начинаем polling...
+2026-06-18 09:18:35,202 - __main__ - INFO - Пользователь 7908353134 запустил бота
+2026-06-18 09:18:49,046 - __main__ - ERROR - Ошибка в add_entry: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 16180 and this is thread id 7008.
+2026-06-18 09:18:57,389 - TeleBot - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7676817853:AAG_IY9-V6x0DeQJTtp2mgNV1meC70FlH38/sendMessage?chat_id=7908353134&text=%D0%A7%D1%82%D0%BE+%D1%85%D0%BE%D1%87%D0%B5%D1%88%D1%8C+%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%3F&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudcc5+%5Cu0417%5Cu0430+%5Cu043d%5Cu0435%5Cu0434%5Cu0435%5Cu043b%5Cu044e%22%2C+%22callback_data%22%3A+%22stats_week%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cuddd3+%5Cu0417%5Cu0430+%5Cu043c%5Cu0435%5Cu0441%5Cu044f%5Cu0446%22%2C+%22callback_data%22%3A+%22stats_month%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cud83d%5Cudd0d+%5Cu041c%5Cu043e%5Cu0438+%5Cu0438%5Cu043d%5Cu0441%5Cu0430%5Cu0439%5Cu0442%5Cu044b%22%2C+%22callback_data%22%3A+%22stats_insights%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudcc9+%5Cu0413%5Cu0440%5Cu0430%5Cu0444%5Cu0438%5Cu043a%22%2C+%22callback_data%22%3A+%22stats_graph%22%7D%5D%5D%7D (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+2026-06-18 09:18:57,394 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\urllib3\connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\urllib3\util\ssl_.py", line 433, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\urllib3\util\ssl_.py", line 477, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7676817853:AAG_IY9-V6x0DeQJTtp2mgNV1meC70FlH38/sendMessage?chat_id=7908353134&text=%D0%A7%D1%82%D0%BE+%D1%85%D0%BE%D1%87%D0%B5%D1%88%D1%8C+%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%3F&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudcc5+%5Cu0417%5Cu0430+%5Cu043d%5Cu0435%5Cu0434%5Cu0435%5Cu043b%5Cu044e%22%2C+%22callback_data%22%3A+%22stats_week%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cuddd3+%5Cu0417%5Cu0430+%5Cu043c%5Cu0435%5Cu0441%5Cu044f%5Cu0446%22%2C+%22callback_data%22%3A+%22stats_month%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cud83d%5Cudd0d+%5Cu041c%5Cu043e%5Cu0438+%5Cu0438%5Cu043d%5Cu0441%5Cu0430%5Cu0439%5Cu0442%5Cu044b%22%2C+%22callback_data%22%3A+%22stats_insights%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudcc9+%5Cu0413%5Cu0440%5Cu0430%5Cu0444%5Cu0438%5Cu043a%22%2C+%22callback_data%22%3A+%22stats_graph%22%7D%5D%5D%7D (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\TsechoevaAYa24\Desktop\mood_productivity_bot\bot.py", line 316, in stats_command
+    bot.send_message(message.chat.id, "Что хочешь узнать?", reply_markup=stats_menu_keyboard())
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 1549, in send_message
+    apihelper.send_message(
+    ~~~~~~~~~~~~~~~~~~~~~~^
+        self.token, chat_id, text, disable_web_page_preview, reply_to_message_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        reply_markup, parse_mode, disable_notification, timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        entities, allow_sending_without_reply, protect_content=protect_content, message_thread_id=message_thread_id))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\apihelper.py", line 264, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\apihelper.py", line 156, in _make_request
+    result = _get_req_session().request(
+        method, request_url, params=params, files=files,
+        timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7676817853:AAG_IY9-V6x0DeQJTtp2mgNV1meC70FlH38/sendMessage?chat_id=7908353134&text=%D0%A7%D1%82%D0%BE+%D1%85%D0%BE%D1%87%D0%B5%D1%88%D1%8C+%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%3F&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudcc5+%5Cu0417%5Cu0430+%5Cu043d%5Cu0435%5Cu0434%5Cu0435%5Cu043b%5Cu044e%22%2C+%22callback_data%22%3A+%22stats_week%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cuddd3+%5Cu0417%5Cu0430+%5Cu043c%5Cu0435%5Cu0441%5Cu044f%5Cu0446%22%2C+%22callback_data%22%3A+%22stats_month%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cud83d%5Cudd0d+%5Cu041c%5Cu043e%5Cu0438+%5Cu0438%5Cu043d%5Cu0441%5Cu0430%5Cu0439%5Cu0442%5Cu044b%22%2C+%22callback_data%22%3A+%22stats_insights%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudcc9+%5Cu0413%5Cu0440%5Cu0430%5Cu0444%5Cu0438%5Cu043a%22%2C+%22callback_data%22%3A+%22stats_graph%22%7D%5D%5D%7D (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+
+2026-06-18 09:19:09,355 - __main__ - INFO - Пользователь 7908353134 запустил бота
+2026-06-18 09:19:23,006 - TeleBot - ERROR - Infinity polling exception: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 16180 and this is thread id 7008.
+2026-06-18 09:19:23,009 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\TsechoevaAYa24\Desktop\mood_productivity_bot\bot.py", line 375, in handle_clear
+    db.delete_all_user_data(user_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\Desktop\mood_productivity_bot\db_handler.py", line 151, in delete_all_user_data
+    self.execute(query, (user_id,), commit=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\Desktop\mood_productivity_bot\db_handler.py", line 27, in execute
+    cursor = self.conn.cursor()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 16180 and this is thread id 7008.
+
+2026-06-18 09:19:26,016 - TeleBot - ERROR - Infinity polling exception: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 16180 and this is thread id 14784.
+2026-06-18 09:19:26,025 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\TsechoevaAYa24\Desktop\mood_productivity_bot\bot.py", line 375, in handle_clear
+    db.delete_all_user_data(user_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\Desktop\mood_productivity_bot\db_handler.py", line 151, in delete_all_user_data
+    self.execute(query, (user_id,), commit=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TsechoevaAYa24\Desktop\mood_productivity_bot\db_handler.py", line 27, in execute
+    cursor = self.conn.cursor()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 16180 and this is thread id 14784.
+
+2026-06-18 09:19:31,640 - __main__ - ERROR - Ошибка в add_entry: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 16180 and this is thread id 7008.
+2026-06-18 09:24:06,230 - TeleBot - ERROR - Infinity polling: polling exited
+2026-06-18 09:24:06,232 - TeleBot - ERROR - Break infinity polling
+2026-06-18 09:24:19,709 - __main__ - INFO - Бот создан
+2026-06-18 09:24:20,218 - __main__ - INFO - Вебхук удалён
+2026-06-18 09:24:20,334 - __main__ - INFO - Бот @tracer_AS_bot запущен и готов к работе!
+2026-06-18 09:24:20,335 - __main__ - INFO - ID бота: 7676817853
+2026-06-18 09:24:20,337 - db_handler - INFO - Подключение к БД diary.db установлено
+2026-06-18 09:24:20,340 - db_handler - INFO - Таблицы успешно созданы
+2026-06-18 09:24:20,341 - __main__ - INFO - База данных подключена
+2026-06-18 09:24:20,342 - __main__ - INFO - Бот запущен, начинаем polling...
+2026-06-18 09:26:18,528 - __main__ - ERROR - Ошибка в history_command: 'str' object has no attribute 'strftime'
+2026-06-18 09:27:03,423 - db_handler - INFO - Удалены все данные для пользователя 7908353134
+2026-06-18 09:28:31,287 - __main__ - ERROR - Ошибка в history_command: 'str' object has no attribute 'strftime'
+2026-06-18 09:29:52,061 - __main__ - INFO - Бот остановлен пользователем
+2026-06-18 09:29:52,063 - db_handler - INFO - Соединение с БД закрыто
+2026-06-18 09:29:57,139 - __main__ - INFO - Бот создан
+2026-06-18 09:29:57,742 - __main__ - INFO - Вебхук удалён
+2026-06-18 09:29:57,838 - __main__ - INFO - Бот @tracer_AS_bot запущен и готов к работе!
+2026-06-18 09:29:57,840 - __main__ - INFO - ID бота: 7676817853
+2026-06-18 09:29:57,846 - db_handler - INFO - Подключение к БД diary.db установлено
+2026-06-18 09:29:57,850 - db_handler - INFO - Таблицы успешно созданы
+2026-06-18 09:29:57,851 - __main__ - INFO - База данных подключена
+2026-06-18 09:29:57,852 - __main__ - INFO - Бот запущен, начинаем polling...
+2026-06-18 09:30:20,615 - __main__ - INFO - Пользователь 7908353134 запустил бота
+2026-06-18 09:31:47,416 - db_handler - INFO - Удалены все данные для пользователя 7908353134
